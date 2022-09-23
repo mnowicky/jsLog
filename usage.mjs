@@ -26,6 +26,8 @@ access('this is a access issue')
 warn('this is a warning')
 system('system down!!')
 event('i am throwing an event! Tuesday!')
+
+
 readLog('info.log').then(result => {
     console.log(result)
 })
